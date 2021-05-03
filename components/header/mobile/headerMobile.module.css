@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px  24px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.menu{
+    width: 36px;
+    height: 36px;
+    color: #FF8A3D;
+}
+
+.logo{
+    height: 36px;
+}

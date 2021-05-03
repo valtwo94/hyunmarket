@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 760px;
+    background-color: white;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonContainer{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button{
+    background-color: #F1F3F5;
+    color: #212529;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 1.3rem 1.4rem;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+}

@@ -1,7 +1,16 @@
+import HeaderLogo from "../../icons/header-logo";
+import c from './headerMobile.module.css'
+import MenuIcon from "../../icons/menu-icon";
+
 const HeaderMobile = () => {
     return (
-        <div>
-            모바일 헤더
+        <div className={c.container}>
+            <div className={c.logo}>
+                <HeaderLogo/>
+            </div>
+            <div className={c.menu}>
+                <MenuIcon/>
+            </div>
         </div>
     )
 }
