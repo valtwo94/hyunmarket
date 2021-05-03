@@ -1,4 +1,7 @@
 import {useMediaQuery} from "react-responsive/src";
+import Section1Desktop from "./desktop/section1Desktop";
+import Section1Tablet from "./tablet/section1Tablet";
+import Section1Mobile from "./mobile/section1Mobile";
 
 const HomeSection1 = () => {
     const isDesktop = useMediaQuery({
@@ -12,9 +15,11 @@ const HomeSection1 = () => {
     })
 
     return (
-        <div>
-
-        </div>
+        <>
+            {isDesktop && <Section1Desktop/>}
+            {isTablet && <Section1Tablet/>}
+            {isMobile && <Section1Mobile/>}
+        </>
     )
 
 }
