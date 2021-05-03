@@ -1,27 +1,26 @@
-import {useMediaQuery} from "react-responsive/src";
+import {MediaQuerySSR} from "react-responsive-ssr";
 import FooterDesktop from "./desktop/footerDesktop";
 import FooterTablet from "./tablet/footerTablet";
 import FooterMobile from "./mobile/footerMobile";
 
 
 const Footer = () => {
-    const isDesktop = useMediaQuery({
-        query: "(min-width:1024px)"
-    })
-    const isTablet = useMediaQuery({
-        query: "(min-width:768px) and (max-width:1023px)"
-    })
-    const isMobile = useMediaQuery({
-        query: "(max-width: 767px)"
-    })
 
     return (
         <>
-            {isDesktop && <FooterDesktop/>}
-            {isTablet && <FooterTablet/>}
-            {isMobile && <FooterMobile/>}
+            {/*모바일*/}
+            <MediaQuerySSR maxWidth = {767}>
+                <FooterMobile/>
+            </MediaQuerySSR>
+            {/*타블렛*/}
+            <MediaQuerySSR maxWidth={1023} minWidth={768}>
+                <FooterTablet/>
+            </MediaQuerySSR>
+            {/*데스크톱*/}
+            <MediaQuerySSR minWidth={1024}>
+                <FooterDesktop/>
+            </MediaQuerySSR>
         </>
     )
 }
-
 export default Footer

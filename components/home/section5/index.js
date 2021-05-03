@@ -1,24 +1,26 @@
-import {useMediaQuery} from "react-responsive/src";
+
 import Section5Desktop from "./desktop/section5Desktop";
 import Section5Tablet from "./tablet/section5Tablet";
 import Section5Mobile from "./mobile/section5Mobile";
+import {MediaQuerySSR} from "react-responsive-ssr";
 
 const HomeSection5 = () => {
-    const isDesktop = useMediaQuery({
-        query: "(min-width:1024px)"
-    })
-    const isTablet = useMediaQuery({
-        query: "(min-width:768px) and (max-width:1023px)"
-    })
-    const isMobile = useMediaQuery({
-        query: "(max-width: 767px)"
-    })
+
 
     return (
         <>
-            {isDesktop && <Section5Desktop/>}
-            {isTablet && <Section5Tablet/>}
-            {isMobile && <Section5Mobile/>}
+            {/*모바일*/}
+            <MediaQuerySSR maxWidth = {767}>
+                <Section5Mobile/>
+            </MediaQuerySSR>
+            {/*타블렛*/}
+            <MediaQuerySSR maxWidth={1023} minWidth={768}>
+                <Section5Tablet/>
+            </MediaQuerySSR>
+            {/*데스크톱*/}
+            <MediaQuerySSR minWidth={1024}>
+                <Section5Desktop/>
+            </MediaQuerySSR>
         </>
     )
 }

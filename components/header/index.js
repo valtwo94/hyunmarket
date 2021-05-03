@@ -1,24 +1,27 @@
-import {useMediaQuery} from "react-responsive/src";
 import HeaderDesktop from "./desktop/headerDesktop";
 import HeaderTablet from "./tablet/headerTablet";
 import HeaderMobile from "./mobile/headerMobile";
+import {MediaQuerySSR} from "react-responsive-ssr";
 
 const Header = () => {
-    const isDesktop = useMediaQuery({
-        query: "(min-width:1024px)"
-    })
-    const isTablet = useMediaQuery({
-        query: "(min-width:768px) and (max-width:1023px)"
-    })
-    const isMobile = useMediaQuery({
-        query: "(max-width: 767px)"
-    })
+
 
     return (
         <>
-            {isDesktop && <HeaderDesktop/>}
-            {isTablet && <HeaderTablet/>}
-            {isMobile && <HeaderMobile/>}
+            <>
+                {/*모바일*/}
+                <MediaQuerySSR maxWidth={767}>
+                    <HeaderMobile/>
+                </MediaQuerySSR>
+                {/*타블렛*/}
+                <MediaQuerySSR maxWidth={1023} minWidth={768}>
+                    <HeaderTablet/>
+                </MediaQuerySSR>
+                {/*데스크톱*/}
+                <MediaQuerySSR minWidth={1024}>
+                    <HeaderDesktop/>
+                </MediaQuerySSR>
+            </>
         </>
     )
 }
