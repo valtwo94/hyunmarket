@@ -1,6 +1,7 @@
 import c from "./footerDesktop.module.css";
 import Spacer from "../../shared/spacer";
 import HeaderLogo from "../../icons/header-logo";
+import Link from "next/link";
 
 const FooterDesktop = () => {
     return (
@@ -15,7 +16,9 @@ const FooterDesktop = () => {
                     <div className={c.menuBold}>자주 묻는 질문</div>
                 </div>
                 <div className={c.menuContainer}>
-                    <div className={c.menu}>회사소개</div>
+                    <Link href={'https://www.notion.so/3d0197c137ec43d18ff739b5b254a3c8'}>
+                        <div className={c.menu}>회사소개</div>
+                    </Link>
                     <Spacer height={30}/>
                     <div className={c.menuBold}>광고주센터</div>
                     <Spacer height={30}/>

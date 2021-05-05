@@ -1,5 +1,6 @@
 import c from './footerMobile.module.css'
 import Spacer from "../../shared/spacer";
+import Link from "next/link";
 
 const FooterMobile = () => {
 
@@ -12,7 +13,9 @@ const FooterMobile = () => {
             </div>
             <Spacer height={15}/>
             <div className={c.menuContainer}>
-                <div className={c.menu}>회사소개</div>
+                <Link href={'https://www.notion.so/3d0197c137ec43d18ff739b5b254a3c8'}>
+                    <div className={c.menu}>회사소개</div>
+                </Link>
                 <div className={c.divider}/>
                 <div className={c.menuBold}>광고주센터</div>
                 <div className={c.divider}/>
