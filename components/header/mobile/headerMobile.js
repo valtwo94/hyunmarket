@@ -1,6 +1,6 @@
 import HeaderLogo from "../../icons/header-logo";
 import c from './headerMobile.module.css'
-import MenuIcon from "../../icons/menu-icon";
+import SearchIcon from "../../icons/search-icon";
 
 const HeaderMobile = () => {
     return (
@@ -9,7 +9,7 @@ const HeaderMobile = () => {
                 <HeaderLogo/>
             </div>
             <div className={c.menu}>
-                <MenuIcon/>
+                <SearchIcon/>
             </div>
         </div>
     )

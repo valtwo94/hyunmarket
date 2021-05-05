@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    background-color: #485056;
+    padding: 80px 80px;
+}
+
+
+.menuContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu{
+    color: #ADB5BD;
+    text-decoration: none;
+}
+
+.menuBold{
+    color: #fff;
+    font-weight: 700;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.info{
+    text-decoration: none;
+    color: #868e96;
+}
+
+
+
+.divider{
+    width: 1px;
+    height: 16px;
+    margin: 0 20px;
+    background-color: grey;
+}

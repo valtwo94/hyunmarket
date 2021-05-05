@@ -1,8 +1,10 @@
-import styles from '../styles/Home.module.css'
-import HomeSection1 from "../components/home/section1";
-import HomeSection2 from "../components/home/section2";
+import HomeSection1 from "../components/screens/home/section1";
+import HomeSection2 from "../components/screens/home/section2";
 import MetaTags from "../components/metatags/metatags";
-import HomeSection3 from "../components/home/section3";
+import HomeSection3 from "../components/screens/home/section3";
+import HomeSection4 from "../components/screens/home/section4";
+import HomeSection5 from "../components/screens/home/section5";
+import Footer from "../components/footer";
 
 const Home = (props) => {
     const {title, description} = props
@@ -14,6 +16,9 @@ const Home = (props) => {
             <HomeSection1/>
             <HomeSection2/>
             <HomeSection3/>
+            <HomeSection4/>
+            <HomeSection5/>
+            <Footer/>
         </>
     )
 }

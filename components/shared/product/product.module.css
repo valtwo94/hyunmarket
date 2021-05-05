@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 100%;
+    height: 150px;
+    background-color: grey;
+    border-radius: 12px;
+}
+
+.title{
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: -0.02px;
+    color: #212529;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+    line-height: 1.5;
+    font-weight: normal;
+    text-align: left;
+}
+
+.price{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.address{
+    width: 100%;
+    font-size: 13px;
+    color: #212529;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.info{
+    width: 100%;
+    color: #868e96;
+    font-size: 13px;
+    text-align: left;
+}
