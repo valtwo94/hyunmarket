@@ -1,14 +1,14 @@
 import './section1Mobile.module.css'
 import c from './section1Mobile.module.css'
 import Spacer from "../../../shared/spacer";
+import Image from "next/image";
 
 const Section1Mobile = () => {
     return (
         <div className={c.container}>
 
-            <div>
-
-            </div>
+            <Image src={"/images/home_section1.png"} width={350} height={300}/>
+            <Spacer height={60}/>
             <div className={c.textContainer}>
                 <h1>당신 근처의 당근마켓</h1>
                 중고 거래부터 동네 정보까지, 이웃과 함께해요

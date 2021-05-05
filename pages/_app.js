@@ -6,8 +6,14 @@ import {Responsive, ResponsiveProvider} from "react-responsive-ssr";
 function MyApp({Component, pageProps}) {
 
 
-    return <ResponsiveProvider
-        value={pageProps.responsive}><Layout><Component {...pageProps} /></Layout></ResponsiveProvider>
+    return (
+        <>
+        <ResponsiveProvider value={pageProps.responsive}>
+            <Layout>
+                <Component {...pageProps} />
+            </Layout>
+        </ResponsiveProvider>
+    </>)
 }
 
 export async function getInitialProps(context) {
