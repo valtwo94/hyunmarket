@@ -3,7 +3,7 @@ import Spacer from "../../../../shared/spacer";
 import Image from "next/image";
 import Link from "next/link";
 
-const Section2Tablet = () => {
+const HomeSection2Tablet = () => {
     return (
         <>
             <div className={c.container}>
@@ -30,4 +30,4 @@ const Section2Tablet = () => {
     )
 }
 
-export default Section2Tablet
+export default HomeSection2Tablet

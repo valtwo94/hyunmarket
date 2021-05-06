@@ -2,7 +2,7 @@ import c from "./section4Mobile.module.css";
 import Spacer from "../../../../shared/spacer";
 import Image from "next/image";
 
-const Section4Mobile = () => {
+const HomeSection4Mobile = () => {
     return (
         <div className={c.container}>
             <div className={c.textContainer}>
@@ -23,4 +23,4 @@ const Section4Mobile = () => {
     )
 }
 
-export default Section4Mobile
+export default HomeSection4Mobile

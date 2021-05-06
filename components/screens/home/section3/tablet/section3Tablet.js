@@ -2,7 +2,7 @@ import c from "./section3Tablet.module.css";
 import Spacer from "../../../../shared/spacer";
 import Image from "next/image";
 
-const Section3Tablet = () => {
+const HomeSection3Tablet = () => {
     return (
         <>
             <div className={c.container}>
@@ -23,4 +23,4 @@ const Section3Tablet = () => {
     )
 }
 
-export default Section3Tablet
+export default HomeSection3Tablet

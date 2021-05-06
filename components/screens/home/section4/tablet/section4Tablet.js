@@ -2,7 +2,7 @@ import c from "./section4Tablet.module.css";
 import Spacer from "../../../../shared/spacer";
 import Image from "next/image";
 
-const Section4Tablet = () => {
+const HomeSection4Tablet = () => {
     return (
         <div className={c.container}>
             <div className={c.textContainer}>
@@ -23,4 +23,4 @@ const Section4Tablet = () => {
     )
 }
 
-export default Section4Tablet
+export default HomeSection4Tablet

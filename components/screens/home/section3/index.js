@@ -1,6 +1,6 @@
-import Section3Desktop from "./desktop/section3Desktop";
-import Section3Tablet from "./tablet/section3Tablet";
-import Section3Mobile from "./mobile/section3Mobile";
+import HomeSection3Desktop from "./desktop/section3Desktop";
+import HomeSection3Tablet from "./tablet/section3Tablet";
+import HomeSection3Mobile from "./mobile/section3Mobile";
 import {MediaQuerySSR} from "react-responsive-ssr";
 
 
@@ -11,15 +11,15 @@ const HomeSection3 = () => {
         <>
             {/*모바일*/}
             <MediaQuerySSR maxWidth={767}>
-                <Section3Mobile/>
+                <HomeSection3Mobile/>
             </MediaQuerySSR>
             {/*타블렛*/}
             <MediaQuerySSR maxWidth={1023} minWidth={768}>
-                <Section3Tablet/>
+                <HomeSection3Tablet/>
             </MediaQuerySSR>
             {/*데스크톱*/}
             <MediaQuerySSR minWidth={1024}>
-                <Section3Desktop/>
+                <HomeSection3Desktop/>
             </MediaQuerySSR>
         </>
     )

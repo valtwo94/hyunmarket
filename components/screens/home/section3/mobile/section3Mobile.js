@@ -2,7 +2,7 @@ import c from "./section3Mobile.module.css";
 import Image from "next/image";
 import Spacer from "../../../../shared/spacer";
 
-const Section3Mobile = () => {
+const HomeSection3Mobile = () => {
 
 
 
@@ -26,4 +26,4 @@ const Section3Mobile = () => {
     )
 }
 
-export default Section3Mobile
+export default HomeSection3Mobile

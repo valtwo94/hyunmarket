@@ -3,7 +3,7 @@ import Spacer from "../../../../shared/spacer";
 import Image from "next/image";
 import Link from "next/link";
 
-const Section2Mobile = () => {
+const HomeSection2Mobile = () => {
     return (
         <>
             <div className={c.container}>
@@ -30,4 +30,4 @@ const Section2Mobile = () => {
     )
 }
 
-export default Section2Mobile
+export default HomeSection2Mobile

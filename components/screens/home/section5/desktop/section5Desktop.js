@@ -2,7 +2,7 @@ import c from "./section5Desktop.module.css";
 import Spacer from "../../../../shared/spacer";
 import Product from "../../../../shared/product/product";
 
-const Section5Desktop = () => {
+const HomeSection5Desktop = () => {
     return (
         <div className={c.container}>
             <div className={c.textContainer}>
@@ -31,4 +31,4 @@ const Section5Desktop = () => {
     )
 }
 
-export default Section5Desktop
+export default HomeSection5Desktop

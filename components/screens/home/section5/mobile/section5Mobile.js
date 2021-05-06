@@ -2,7 +2,7 @@ import c from "./section5Mobile.module.css";
 import Spacer from "../../../../shared/spacer";
 import Product from "../../../../shared/product/product";
 
-const Section5Mobile = () => {
+const HomeSection5Mobile = () => {
     return (
         <div className={c.container}>
             <div className={c.textContainer}>
@@ -31,4 +31,4 @@ const Section5Mobile = () => {
     )
 }
 
-export default Section5Mobile
+export default HomeSection5Mobile

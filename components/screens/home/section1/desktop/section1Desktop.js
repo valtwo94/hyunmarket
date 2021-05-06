@@ -2,7 +2,7 @@ import c from "./section1Desktop.module.css";
 import Spacer from "../../../../shared/spacer";
 import Image from "next/image";
 
-const Section1Desktop = () => {
+const HomeSection1Desktop = () => {
     return (
         <div className={c.container}>
             <div className={c.textContainer}>
@@ -21,4 +21,4 @@ const Section1Desktop = () => {
     )
 }
 
-export default Section1Desktop
+export default HomeSection1Desktop

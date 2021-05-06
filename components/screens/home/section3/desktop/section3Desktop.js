@@ -2,7 +2,7 @@ import c from "./section3Desktop.module.css";
 import Spacer from "../../../../shared/spacer";
 import Image from "next/image";
 
-const Section3Desktop = () => {
+const HomeSection3Desktop = () => {
     return (
         <>
             <div className={c.container}>
@@ -56,4 +56,4 @@ const Section3Desktop = () => {
     )
 }
 
-export default Section3Desktop
+export default HomeSection3Desktop

@@ -2,7 +2,7 @@ import c from "./section4Desktop.module.css";
 import Spacer from "../../../../shared/spacer";
 import Image from "next/image";
 
-const Section4Desktop = () => {
+const HomeSection4Desktop = () => {
     return (
         <div className={c.container}>
             <Image src={"/images/home_section4.png"} width={560} height={700}/>
@@ -26,4 +26,4 @@ const Section4Desktop = () => {
     )
 }
 
-export default Section4Desktop
+export default HomeSection4Desktop

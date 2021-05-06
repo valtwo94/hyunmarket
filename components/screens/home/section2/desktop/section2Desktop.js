@@ -3,7 +3,7 @@ import Spacer from "../../../../shared/spacer";
 import Image from "next/image";
 import Link from "next/link";
 
-const Section2Desktop = () => {
+const HomeSection2Desktop = () => {
     return (
         <>
             <div className={c.container}>
@@ -35,4 +35,4 @@ const Section2Desktop = () => {
     )
 }
 
-export default Section2Desktop
+export default HomeSection2Desktop
