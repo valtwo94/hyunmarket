@@ -15,7 +15,7 @@ const HomeSection1Tablet = () => {
                 가깝고 따뜻한 당신의 근처를 만들어요.
             </div>
             <Spacer height={60}/>
-            <Image src={"/images/home_section1.png"} width={350} height={300}/>
+            <Image src={"/images/home/home_section1.png"} width={350} height={300}/>
         </div>
     )
 }

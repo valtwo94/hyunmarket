@@ -18,7 +18,7 @@ const HomeSection4Tablet = () => {
                 <button className={c.button}>당근마켓 동네가게 찾기</button>
             </div>
             <Spacer height={60}/>
-            <Image src={"/images/home_section4.png"} width={280} height={350}/>
+            <Image src={"/images/home/home_section4.png"} width={280} height={350}/>
         </div>
     )
 }

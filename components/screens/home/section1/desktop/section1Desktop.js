@@ -16,7 +16,7 @@ const HomeSection1Desktop = () => {
                 </div>
             </div>
             <Spacer width={60}/>
-            <Image src={"/images/home_section1.png"} width={700} height={600}/>
+            <Image src={"/images/home/home_section1.png"} width={700} height={600}/>
         </div>
     )
 }

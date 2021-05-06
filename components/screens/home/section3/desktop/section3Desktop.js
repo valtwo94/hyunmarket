@@ -18,7 +18,7 @@ const HomeSection3Desktop = () => {
                     <Spacer height={60}/>
                     <div className={c.iconContainer}>
                         <div className={c.icon}>
-                            <Image src={'/images/home_section3_icon1.png'} width={100} height={100}/>
+                            <Image src={'/images/home/home_section3_icon1.png'} width={100} height={100}/>
                             <Spacer height={10}/>
                             <div className={c.iconTitle}>우리동네질문</div>
                             <Spacer height={10}/>
@@ -28,7 +28,7 @@ const HomeSection3Desktop = () => {
                             </div>
                         </div>
                         <div className={c.icon}>
-                            <Image src={'/images/home_section3_icon2.png'} width={100} height={100}/>
+                            <Image src={'/images/home/home_section3_icon2.png'} width={100} height={100}/>
                             <Spacer height={10}/>
                             <div className={c.iconTitle}>동네분실센터</div>
                             <Spacer height={10}/>
@@ -38,7 +38,7 @@ const HomeSection3Desktop = () => {
                             </div>
                         </div>
                         <div className={c.icon}>
-                            <Image src={'/images/home_section3_icon3.png'} width={100} height={100}/>
+                            <Image src={'/images/home/home_section3_icon3.png'} width={100} height={100}/>
                             <Spacer height={10}/>
                             <div className={c.iconTitle}>우리동네질문</div>
                             <Spacer height={10}/>
@@ -50,7 +50,7 @@ const HomeSection3Desktop = () => {
                     </div>
                 </div>
                 <Spacer width={60}/>
-                <Image src={"/images/home_section3.png"} width={560} height={700}/>
+                <Image src={"/images/home/home_section3.png"} width={560} height={700}/>
             </div>
         </>
     )

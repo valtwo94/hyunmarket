@@ -7,7 +7,9 @@ const FooterMobile = () => {
     return (
         <div className={c.container}>
             <div className={c.menuContainer}>
-                <div className={c.menuBold}>믿을 수 있는 중고거래</div>
+                <Link href={'/trust'}>
+                    <div className={c.menuBold}>믿을 수 있는 중고거래</div>
+                </Link>
                 <div className={c.divider}/>
                 <div className={c.menuBold}>자주 묻는 질문</div>
             </div>

@@ -24,7 +24,7 @@ const HomeSection2Mobile = () => {
                     </Link>
                 </div>
                 <Spacer height={60}/>
-                <Image src={"/images/home_section2.png"} width={300} height={350}/>
+                <Image src={"/images/home/home_section2.png"} width={300} height={350}/>
             </div>
         </>
     )

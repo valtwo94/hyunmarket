@@ -5,7 +5,7 @@ import Image from "next/image";
 const HomeSection4Desktop = () => {
     return (
         <div className={c.container}>
-            <Image src={"/images/home_section4.png"} width={560} height={700}/>
+            <Image src={"/images/home/home_section4.png"} width={560} height={700}/>
             <Spacer width={100}/>
             <div className={c.textContainer}>
                 <h1>

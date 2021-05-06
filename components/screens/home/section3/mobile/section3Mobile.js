@@ -20,7 +20,7 @@ const HomeSection3Mobile = () => {
                     이웃과 함께 나누어요.
                 </div>
                 <Spacer height={60}/>
-                <Image src={"/images/home_section3.png"} width={280} height={350}/>
+                <Image src={"/images/home/home_section3.png"} width={280} height={350}/>
             </div>
         </>
     )

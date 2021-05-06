@@ -7,7 +7,7 @@ const HomeSection2Desktop = () => {
     return (
         <>
             <div className={c.container}>
-                <Image src={"/images/home_section2.png"} width={600} height={700}/>
+                <Image src={"/images/home/home_section2.png"} width={600} height={700}/>
                 <Spacer width={60}/>
                 <div className={c.textContainer}>
                     <h1>우리 동네
